@@ -1,0 +1,8 @@
+<!--<div class="progress__container">-->
+<!--  <div class="progress__fill" [ngStyle]="{ width: fullFillRatio }"></div>-->
+<!--  <div class="day__cursor" [ngStyle]="{ left: dayUsed }"></div>-->
+<!--</div>-->
+<mat-progress-bar mode="indeterminate" color="warn"></mat-progress-bar>
+<span class="progress__footer" *ngIf="footerInfo">
+  {{ footerInfo }}
+</span>

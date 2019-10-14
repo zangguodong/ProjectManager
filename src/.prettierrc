@@ -1,0 +1,11 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "htmlWhitespaceSensitivity": "ignore",
+  "overrides": [
+    {
+      "files": ["src/**/*.component.html", "src/**/template.html"],
+      "options": { "parser": "angular" }
+    }
+  ]
+}

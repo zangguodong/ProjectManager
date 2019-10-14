@@ -1,0 +1,27 @@
+@import '../../../var';
+:host {
+  .progress__container {
+    height: 20px;
+    width: 180px;
+    border-radius: 4px;
+    position: relative;
+    border: 1px solid;
+    overflow: hidden;
+    background-color: antiquewhite;
+  }
+  .progress__fill {
+    height: 100%;
+    background: dodgerblue;
+  }
+  .day__cursor {
+    position: absolute;
+    border: 0.5px solid;
+    border-color: transparent red transparent red;
+    height: 100%;
+    top: 0;
+  }
+  .progress__footer {
+    color: $text-help;
+    font-size: 12px;
+  }
+}

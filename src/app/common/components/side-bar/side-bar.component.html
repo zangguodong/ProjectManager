@@ -1,0 +1,10 @@
+<div class="navigate__bar" fxLayoutGap="10px" fxLayout="column">
+  <a
+    *ngFor="let routeInfo of routeDefs"
+    class="side__bar__item"
+    [class.active]="routeInfo.path === (urlPath$ | async)"
+    [routerLink]="routeInfo.path"
+  >
+    {{ routeInfo.sideBarName }}
+  </a>
+</div>

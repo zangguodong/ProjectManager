@@ -1,0 +1,23 @@
+:host {
+  display: flex;
+  .navigate__bar {
+    width: 150px;
+    min-width: fit-content;
+    padding: 8px;
+    background-color: antiquewhite;
+  }
+  .side__bar__item {
+    text-decoration: none;
+    transition: opacity 0.2s;
+    background-color: rgb(200, 0, 0);
+    padding: 3px;
+    color: white;
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+    &.active {
+      background-color: rgb(255, 0, 0);
+    }
+  }
+}
